@@ -11,16 +11,16 @@ cv.namedWindow("input", cv.WINDOW_AUTOSIZE)
 cv.imshow("input", src)
 
 # X Flip 倒影
-dst1 = cv.flip(src, 0);
-cv.imshow("x-flip", dst1);
+dst1 = cv.flip(src, 0)
+cv.imshow("x-flip", dst1)
 
 # Y Flip 镜像
-dst2 = cv.flip(src, 1);
-cv.imshow("y-flip", dst2);
+dst2 = cv.flip(src, 1)
+cv.imshow("y-flip", dst2)
 
 # XY Flip 对角
-dst3 = cv.flip(src, -1);
-cv.imshow("xy-flip", dst3);
+dst3 = cv.flip(src, -1)
+cv.imshow("xy-flip", dst3)
 
 # custom y-flip
 h, w, ch = src.shape
