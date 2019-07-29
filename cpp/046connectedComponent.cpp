@@ -11,7 +11,7 @@ void connected_component_demo(cv::Mat &image);
 
 int main(int argc, char const *argv[])
 {
-    cv::Mat src = cv::imread("../images/lena.jpg");
+    cv::Mat src = cv::imread("../images/rice.png");
 
     if (src.empty())
     {

@@ -33,7 +33,7 @@ def connected_components_demo(src):
     print("total rice : ", num_labels - 1)
 
 
-src = cv.imread("../images/lena.jpg")
+src = cv.imread("../images/rice.png")
 h, w = src.shape[:2]
 connected_components_demo(src)
 cv.waitKey(0)
