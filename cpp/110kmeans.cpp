@@ -17,7 +17,7 @@ int main(int argc, char** argv) {
 	int sampleCount = rng.uniform(5, 500);
 	Mat points(sampleCount, 1, CV_32FC2);
 
-	// 初始化点
+	// 生成随机数
 	for (int k = 0; k < numCluster; k++) {
 		Point center;
 		center.x = rng.uniform(0, img.cols);
